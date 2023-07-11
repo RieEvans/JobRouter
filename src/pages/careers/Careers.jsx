@@ -22,7 +22,7 @@ export const Careers = () => {
 
 export const careersLoaders = async () => {
     
-    const res = await fetch ('https://real-pear-jaguar-suit.cyclic.app/careers/')
+    const res = await fetch ('https://real-pear-jaguar-suit.cyclic.app/careers')
     if(!res.ok){
         throw Error("Could not Fetch Data Careers")
       }
